@@ -1,0 +1,11 @@
+.pixel-cell {
+  width: 100%;
+  aspect-ratio: 1;      
+  border: 1px solid #ddd;
+  cursor: crosshair;
+  box-sizing: border-box;
+}
+
+.pixel-cell:hover {
+  opacity: 0.85;
+}

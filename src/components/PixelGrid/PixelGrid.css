@@ -1,0 +1,8 @@
+.pixel-grid {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  width: 500px;
+  height: 500px;
+  border: 2px solid #ccc;
+  user-select: none;  
+}

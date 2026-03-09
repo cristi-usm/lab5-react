@@ -1,0 +1,14 @@
+[
+    {"id": 1, "name": "red", "hex": "#FF6B6B"},
+    {"id": 2, "name": "orange", "hex": "#FF8E53"},
+    {"id": 3, "name": "yellow", "hex": "#FFD93D"},
+    {"id": 4, "name": "green", "hex": "#6BCB77"},
+    {"id": 5, "name": "blue", "hex": "#4D96FF"},
+    {"id": 6, "name": "light-blue", "hex": "#4ECDC4"},
+    {"id": 7, "name": "purple", "hex": "#9B59B6"},
+    {"id": 8, "name": "pink", "hex": "#E84393"},
+    {"id": 9, "name": "dark", "hex": "#2C3E50"},
+    {"id": 10, "name": "grey", "hex": "#7F8C8D"},
+    {"id": 11, "name": "black", "hex": "#1A1A1A"},
+    {"id": 12, "name": "white", "hex": "#F0F0F0"}
+]
