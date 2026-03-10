@@ -1,0 +1,31 @@
+.gridContainer {
+  display: inline-block;
+  cursor: crosshair;
+}
+
+.gridRow {
+  display: flex;
+}
+
+.cell {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.resetButton {
+  margin-top: 12px;
+  margin-left: 12px;
+  padding: 8px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.resetButton:hover {
+  background-color: #c0392b;
+}

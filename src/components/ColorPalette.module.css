@@ -1,0 +1,19 @@
+.palette {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.colorCell {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #999;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.selected {
+  border: 4px solid #59ff00;
+  transform: scale(1.2);
+}
