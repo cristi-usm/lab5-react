@@ -1,0 +1,155 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f6f8;
+  margin:0;
+  padding:30px;
+}
+
+
+
+.appContainer{
+  display:flex;
+  justify-content:center;
+}
+
+
+
+.mainLayout{
+  display:flex;
+  gap:40px;
+  align-items:flex-start;
+}
+
+
+
+.drawingArea{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:15px;
+}
+
+
+
+.palette{
+  display:flex;
+  gap:12px;
+  padding:10px 15px;
+  background:#ffffff;
+  border-radius:8px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.08);
+}
+
+.colorBox{
+  width:32px;
+  height:32px;
+  border-radius:50%;
+  cursor:pointer;
+  border:2px solid #444;
+  transition:transform 0.15s;
+}
+
+.colorBox:hover{
+  transform:scale(1.1);
+}
+
+
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(20,22px);
+  background:white;
+  padding:10px;
+  border-radius:8px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.cell{
+  width:22px;
+  height:22px;
+  border:1px solid #e5e5e5;
+}
+
+
+
+.controls{
+  display:flex;
+  gap:12px;
+}
+
+.controls button{
+  padding:8px 16px;
+  border:none;
+  border-radius:6px;
+  background:#5b7cff;
+  color:white;
+  font-weight:500;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.controls button:hover{
+  background:#3f63f0;
+}
+
+
+
+.gallerySection{
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.08);
+  min-width:180px;
+}
+
+.gallerySection h3{
+  margin-top:0;
+  margin-bottom:15px;
+}
+
+
+.drawingCard{
+  display:flex;
+  align-items:center;
+  gap:15px;
+  margin-bottom:12px;
+}
+
+
+
+.thumbnail{
+  display:grid;
+  grid-template-columns: repeat(20,4px);
+  width:80px;
+  height:80px;
+  border:1px solid #ddd;
+  padding:3px;
+  border-radius:4px;
+}
+
+.miniCell{
+  width:4px;
+  height:4px;
+}
+
+
+
+.galleryButtons{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.galleryButtons button{
+  padding:4px 10px;
+  border:none;
+  border-radius:4px;
+  background:#7c96ff;
+  color:white;
+  font-size:12px;
+  cursor:pointer;
+}
+
+.galleryButtons button:hover{
+  background:#5e7df5;
+}
