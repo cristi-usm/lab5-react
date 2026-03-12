@@ -1,0 +1,26 @@
+.paletteSection {
+    flex: 1;
+  }
+  
+  .palette {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .colorBtn {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .colorBtn:hover {
+    transform: scale(1.1);
+  }
+  
+  .selected {
+    border: 3px solid black;
+  }
