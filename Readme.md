@@ -3,10 +3,12 @@
 ## Cerințe Generale
 
 ### Configurare Proiect
+
 - Creează un proiect `React` folosind `Vite`.
 - Folosește fișiere `.json` pentru a stoca paleta de culori disponibile.
 
 ### Interfață Utilizator (UI) & Experiență
+
 - Stilizarea se poate face cu CSS/modulare sau biblioteci externe (e.g., Tailwind, Material-UI).
 
 ## Funcționalități
@@ -32,15 +34,15 @@
 
 ## Barem de notare
 
-| Punctaj | Sarcina |
-|---------|---------|
-| 1 | Crearea corectă a proiectului |
-| 1 | Utilizarea fișierelor `JSON` pentru paleta de culori |
-| 1 | UI Neoribil |
-| 1 | Utilizarea corectă a state-urilor |
-| 2 | Grid-ul de desen cu selectarea culorilor și reset |
-| 2 | Galeria de desene cu salvare/încărcare/ștergere |
-| 2 | Funcționalitatea de desenare prin click & drag |
+| Punctaj | Sarcina                                              |
+| ------- | ---------------------------------------------------- |
+| 1       | Crearea corectă a proiectului                        |
+| 1       | Utilizarea fișierelor `JSON` pentru paleta de culori |
+| 1       | UI Neoribil                                          |
+| 1       | Utilizarea corectă a state-urilor                    |
+| 2       | Grid-ul de desen cu selectarea culorilor și reset    |
+| 2       | Galeria de desene cu salvare/încărcare/ștergere      |
+| 2       | Funcționalitatea de desenare prin click & drag       |
 
 ### Link de exemplu de soluție: [Pixel Art App Example](https://pixel-draw-amber.vercel.app/)
 

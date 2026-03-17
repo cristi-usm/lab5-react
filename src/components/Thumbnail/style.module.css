@@ -1,0 +1,83 @@
+.thumbnailCard {
+    padding: 10px;
+    border: 1px solid #c8c8c8;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.45);
+}
+
+.thumbnailPreview {
+    padding: 6px;
+    border-radius: 8px;
+    background: #d0d0d0;
+    cursor: pointer;
+}
+
+.thumbnailGrid {
+    display: grid;
+    grid-template-columns: repeat(20, minmax(0, 1fr));
+    gap: 1px;
+}
+
+.thumbnailCell {
+    aspect-ratio: 1 / 1;
+    border-radius: 1px;
+}
+
+.thumbnailMeta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.thumbnailTitle,
+.thumbnailCopy {
+    margin: 0;
+}
+
+.thumbnailTitle {
+    color: #2f2f2f;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.thumbnailCopy {
+    color: #6e6e6e;
+    font-size: 0.84rem;
+}
+
+.thumbnailActions {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.miniButton {
+    padding: 7px 10px;
+    border: 1px solid #bdbdbd;
+    border-radius: 8px;
+    background: transparent;
+    color: #404040;
+    font-size: 0.84rem;
+    font-weight: 700;
+    font: inherit;
+}
+
+.miniButton:hover {
+    transform: translateY(-1px);
+}
+
+.dangerButton {
+    color: #8a3a2a;
+}
+
+@media (max-width: 680px) {
+    .thumbnailMeta {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .thumbnailActions .miniButton {
+        flex: 1;
+    }
+}

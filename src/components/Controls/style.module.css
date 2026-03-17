@@ -1,0 +1,43 @@
+.controls {
+    display: flex;
+    gap: 14px;
+}
+
+.actionButton,
+.secondaryButton {
+    min-width: 118px;
+    padding: 14px 24px;
+    border: 1px solid #bdbdbd;
+    border-radius: 12px;
+    font: inherit;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+.actionButton {
+    background: #4d8df0;
+    color: #fff;
+    border-color: #4d8df0;
+    box-shadow: 0 8px 18px rgba(77, 141, 240, 0.22);
+}
+
+.secondaryButton {
+    background: transparent;
+    color: #3f3f3f;
+}
+
+.actionButton:hover:not(:disabled),
+.secondaryButton:hover {
+    transform: translateY(-1px);
+}
+
+.actionButton:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+@media (max-width: 680px) {
+    .controls {
+        justify-content: center;
+    }
+}

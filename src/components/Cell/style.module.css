@@ -1,0 +1,6 @@
+.pixelCell {
+    aspect-ratio: 1 / 1;
+    border-radius: 0;
+    cursor: crosshair;
+    transition: opacity 120ms ease;
+}

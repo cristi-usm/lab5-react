@@ -1,0 +1,14 @@
+[
+  { "name": "Coal", "hex": "#1f2933" },
+  { "name": "Cloud", "hex": "#f8fafc" },
+  { "name": "Coral", "hex": "#ff6b6b" },
+  { "name": "Apricot", "hex": "#f4a261" },
+  { "name": "Sun", "hex": "#f6bd60" },
+  { "name": "Mint", "hex": "#84dcc6" },
+  { "name": "Fern", "hex": "#4caf50" },
+  { "name": "Lagoon", "hex": "#00afb9" },
+  { "name": "Ocean", "hex": "#4361ee" },
+  { "name": "Plum", "hex": "#7b2cbf" },
+  { "name": "Bubblegum", "hex": "#ff99c8" },
+  { "name": "Cocoa", "hex": "#8d6e63" }
+]
