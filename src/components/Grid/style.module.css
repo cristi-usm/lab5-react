@@ -1,0 +1,19 @@
+.canvasCard {
+    width: min(100%, 830px);
+}
+
+.pixelGrid {
+    display: grid;
+    grid-template-columns: repeat(20, minmax(0, 1fr));
+    gap: 1px;
+    padding: 1px;
+    border: 4px solid #bfbfbf;
+    background: #c7c7c7;
+    user-select: none;
+}
+
+@media (max-width: 680px) {
+    .canvasCard {
+        width: 100%;
+    }
+}

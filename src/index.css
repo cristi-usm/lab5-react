@@ -1,0 +1,34 @@
+:root {
+  --bg-base: #dddddd;
+  --ink-main: #151515;
+  --accent: #4d8df0;
+  --cell-empty: #dddddd;
+
+  font-family: 'Trebuchet MS', 'Avenir Next', 'Segoe UI', sans-serif;
+  color: #151515;
+  background: var(--bg-base);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-base);
+}
+
+button {
+  cursor: pointer;
+  transition:
+    transform 140ms ease,
+    box-shadow 140ms ease,
+    opacity 140ms ease;
+}

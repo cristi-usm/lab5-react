@@ -1,0 +1,25 @@
+.gallerySection {
+    width: 100%;
+}
+
+.galleryTitle {
+    margin: 0 0 18px;
+    color: #5e5e5e;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.galleryList {
+    display: grid;
+    gap: 14px;
+}
+
+.emptyGallery {
+    color: #858585;
+}
+
+.emptyGallery p {
+    margin: 0;
+}
