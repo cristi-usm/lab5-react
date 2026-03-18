@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Rosu",
+        "hex": "#ff0000"
+    },
+    {
+        "id": 2,
+        "name": "Verde",
+        "hex": "#00cc00"
+    },
+    {
+        "id": 3,
+        "name": "Albastru",
+        "hex": "#0000ff"
+    },
+    {
+        "id": 4,
+        "name": "Galben",
+        "hex": "#ffff00"
+    },
+    {
+        "id": 5,
+        "name": "Violet",
+        "hex": "#8800ff"
+    },
+    {
+        "id": 6,
+        "name": "Eraser",
+        "hex": "#ffffff"
+    }
+]

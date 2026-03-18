@@ -1,0 +1,106 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.workspace {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 16px;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+}
+
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 0 -4px;
+}
+
+.hint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+
+.hintIcon {
+  color: var(--accent);
+  font-size: 12px;
+  flex-shrink: 0;
+}
+
+.gridInfo {
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.gridInfoText {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+}
+
+.canvasArea {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  position: relative;
+}
+
+.canvasArea::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 20% 80%, rgba(200, 245, 66, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(245, 66, 200, 0.03) 0%, transparent 50%);
+}
+
+.flash {
+  animation: saveFlash 0.6s ease;
+}
+
+@keyframes saveFlash {
+  0% {
+    background: var(--bg);
+  }
+
+  30% {
+    background: rgba(200, 245, 66, 0.06);
+  }
+
+  100% {
+    background: var(--bg);
+  }
+}
+
+.gallerySidebar {
+  width: 220px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px;
+  background: var(--surface);
+  border-left: 1px solid var(--border);
+  overflow: hidden;
+}
