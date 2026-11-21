@@ -1,0 +1,14 @@
+[
+  { "name": "Cărbune", "hex": "#171827" },
+  { "name": "Alb nor", "hex": "#f8f7ff" },
+  { "name": "Roșu coral", "hex": "#ff5d73" },
+  { "name": "Portocaliu", "hex": "#ff9f43" },
+  { "name": "Galben", "hex": "#ffd166" },
+  { "name": "Verde mentă", "hex": "#64dfb2" },
+  { "name": "Turcoaz", "hex": "#38c5d8" },
+  { "name": "Albastru", "hex": "#5b8cff" },
+  { "name": "Indigo", "hex": "#7866e8" },
+  { "name": "Roz", "hex": "#e879f9" },
+  { "name": "Maro", "hex": "#9b6b52" },
+  { "name": "Gri", "hex": "#687086" }
+]
